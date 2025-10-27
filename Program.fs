@@ -413,7 +413,7 @@ let main argv =
     printfn $"v{AppVersion}"
     printfn AppProjectUrl
     printfn ""
-    printfn $"Board size: {width}x{height}, Mines: {mines}, Seed: seed"
+    printfn $"Board size: {width}x{height}, Mines: {mines}, Seed: {seed}"
     printfn CommandsHint
 
     gameLoop rng board
