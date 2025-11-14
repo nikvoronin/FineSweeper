@@ -274,7 +274,7 @@ let drawBoard b =
 let CommandsHint = "Commands |> r X Y (r-Reveal) | f X Y (f-Flag) | q (q-Quit)"
 
 let waitBeforeClose () =
-    printf "Enter to close..."
+    printf "↳ Enter to close..."
     Console.ReadLine () |> ignore
 
 let rec gameLoop rng b =
@@ -329,7 +329,7 @@ let rec gameLoop rng b =
 [<Literal>]
 let AppName = "FineSweeper"
 [<Literal>]
-let AppVersion = "0.10.27"
+let AppVersion = "0.11.14"
 [<Literal>]
 let AppProjectUrl = "https://github.com/nikvoronin/FineSweeper"
 
