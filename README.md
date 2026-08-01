@@ -17,7 +17,8 @@ A minimalistic, functional Minesweeper implementation in F# for the terminal. No
 **System requirements:** Windows 10 x64, .NET Desktop Runtime 10.0.\
 Linux and macOS are also supported with the corresponding .NET runtime.
 
-ℹ️ For the best experience, use a modern UTF-8 terminal with emoji support, such as Windows Terminal (wt).
+> [!NOTE]
+> For the best experience, use a modern UTF-8 terminal with emoji support, such as Windows Terminal (wt).
 
 ## Interface
 
@@ -34,7 +35,8 @@ Linux and macOS are also supported with the corresponding .NET runtime.
 - mines  - number of mines [3..99] default 10
 - seed   - optional random seed (signed integer)
 
-ℹ️ The board will be the same for the same seed value.
+> [!NOTE]
+> The board will be the same for the same seed value.
 
 #### Example runs
 
