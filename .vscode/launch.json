@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "F# Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      // NOTE: update the TFM segment (net10.0) below if TargetFramework in FineSweeper.fsproj changes
+      "program": "${workspaceFolder}/bin/Debug/net10.0/FineSweeper.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false,
+      "justMyCode": true
+    }
+  ]
+}
